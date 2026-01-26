@@ -1,0 +1,86 @@
+<!-- Inline CSS - sets blue text color for heading -->
+<h1 style="color:blue;">A Blue Heading</h1>
+
+<!-- Inline CSS - sets red text color for paragraph -->
+<p style="color:red;">A red paragraph.</p>
+
+<!-- Internal CSS - complete HTML document with styles in head section -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+<!-- External CSS - links to external stylesheet -->
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+<!-- CSS Colors, Fonts and Sizes - demonstrates color, font-family and font-size properties -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+<!-- CSS Border - demonstrates border property -->
+<p style="border: 2px solid powderblue;">
+This is a paragraph with border.
+</p>
+
+<!-- CSS Padding - demonstrates padding property -->
+<p style="border: 2px solid powderblue; padding: 30px;">
+This is a paragraph with border and padding.
+</p>
+
+<!-- CSS Margin - demonstrates margin property -->
+<p style="border: 2px solid powderblue; margin: 50px;">
+This is a paragraph with border and margin.
+</p>
+
+<!-- External CSS with full URL -->
+<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+
+<!-- External CSS with relative path from html folder -->
+<link rel="stylesheet" href="/html/styles.css">
+
+<!-- External CSS with relative path from current folder -->
+<link rel="stylesheet" href="styles.css">
